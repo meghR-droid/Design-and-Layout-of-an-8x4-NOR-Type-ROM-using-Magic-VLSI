@@ -1,0 +1,53 @@
+| units: 100 tech: scmos format: MIT
+n wl3 gnd! bit1 2 4 -23 -33
+n wl4 gnd! bit3 2 4 16 -54
+n wl4 gnd! bit2 2 4 -4 -54
+n wl4 gnd! bit1 2 4 -24 -54
+n wl5 gnd! bit2 2 4 -3 -65
+n wl5 gnd! bit1 2 4 -23 -65
+n wl5 gnd! bit0 2 4 -43 -65
+n wl6 gnd! bit1 2 4 -24 -86
+n wl6 gnd! bit0 2 4 -44 -86
+n wl7 gnd! bit3 2 4 17 -97
+n wl7 gnd! bit2 2 4 -3 -97
+n wl1 gnd! bit2 2 4 -3 -1
+n wl1 gnd! bit0 2 4 -43 -1
+n wl2 gnd! bit0 2 4 -44 -22
+n wl3 gnd! bit3 2 4 17 -33
+p gnd! bit0 vdd! 2 6 -45 36
+p gnd! bit3 vdd! 2 6 14 36
+p gnd! bit2 vdd! 2 6 -5 36
+p gnd! bit1 vdd! 2 6 -25 36
+C bit3 gnd! 6.20
+C bit2 gnd! 6.77
+C w_n59_28# vdd! 7.90
+C gnd! w_n59_28# 15.70
+C bit1 gnd! 6.77
+C gnd! bit0 6.77
+R vdd! 838
+R w_n59_28# 11972
+C wl2 GND 21.67
+R wl2 1032
+C wl1 GND 21.04
+R wl1 1032
+C wl7 GND 21.04
+R wl7 1032
+C bit2 GND 22.75
+R bit2 883
+R gnd! 2735
+C wl6 GND 21.04
+R wl6 1032
+C bit0 GND 22.75
+R bit0 883
+C bit3 GND 23.31
+R bit3 878
+C bit1 GND 22.75
+R bit1 883
+C wl5 GND 20.41
+R wl5 1032
+C wl4 GND 20.41
+R wl4 1032
+C wl3 GND 21.04
+R wl3 1032
+C wl0 GND 22.31
+R wl0 1032

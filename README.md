@@ -23,7 +23,7 @@ b) rom_0bit.mag
 c)rom_1bit.mag
 d)rom_full.spice
 e)magic layout.png
-
+f)rom_full.ext
 2)irsim :
 a)rom_full.sim
 b) 1 , 2 , 3 waveforms

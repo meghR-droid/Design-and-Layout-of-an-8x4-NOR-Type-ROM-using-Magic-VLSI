@@ -10,6 +10,7 @@ This repository contains the complete design, layout implementation, and IRSIM s
 - **Technology:** Magic VLSI  
 - **Verification:** IRSIM  
 - **Design approach:** Each bitcell is implemented using a NOR pull-down network with PMOS pull-ups.
+- This report describes the design and verification of an 8-word × 4-bit NOR-type ROM using the Magic VLSI tool. Each bit is implemented with a NOR pull-down network and PMOS pull-ups. Functional behavior was verified in IRSIM using various word-line test patterns. The report covers the architecture, cell design, layout, simulations, and test vectors used in the design process.
 
 This repository includes the layout, extracted netlists, IRSIM simulation commands, waveforms, and final project report.
 
@@ -27,5 +28,5 @@ e)magic layout.png
 a)rom_full.sim
 b) 1 , 2 , 3 waveforms
 
-3)Report
+3)Report : 
 rom_report
